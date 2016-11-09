@@ -1,0 +1,29 @@
+{
+  "name": "concept",
+  "version": "0.0.1",
+  "description": "Library for accessing to the Microsoft Concept Graph API",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomasperezv/concept.git"
+  },
+  "keywords": [
+    "concept",
+    "microsoft",
+    "concept",
+    "graph",
+    "api",
+    "concept",
+    "graph",
+    "api"
+  ],
+  "author": "Tomás Pérez <t@0x101.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tomasperezv/concept/issues"
+  },
+  "homepage": "https://github.com/tomasperezv/concept#readme"
+}
