@@ -2,7 +2,7 @@
   "name": "concept",
   "version": "0.1.0",
   "description": "Library for accessing to the Microsoft Concept Graph API",
-  "main": "index.js",
+  "main": "src/concept",
   "scripts": {
     "test": "npm test"
   },
