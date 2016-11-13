@@ -1,4 +1,6 @@
-# concept
+# concept [![npm version](https://badge.fury.io/js/concept.svg)](https://badge.fury.io/js/concept)
+
+![npm](https://nodei.co/npm/concept.png?mini=true)
 
 Node.js library for accessing to the Microsoft Concept Graph API
 
