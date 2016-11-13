@@ -13,9 +13,7 @@ npm install concept
 ```javascript
 const Concept = require('concept');
 Concept.setAPIKey('MY API KEY');
-Concept.scoreByProb({
-  instance: 'microsoft'
-}).then((score) => {
+Concept.scoreByProb('microsoft').then((data) => {
   // e.g. score = {
   //   "company": "0.62",
   //   "technology company": "0.024",
