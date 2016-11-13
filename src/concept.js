@@ -52,6 +52,99 @@ const Concept = {
         key: this._getAPIKey()
       }
     );
+  },
+
+  /**
+   * @method scoreByMI
+   * @param {String} instance
+   * @param {Float} smooth
+   * @return {Promise}
+   * @public
+   */
+  scoreByMI(instance, smooth) {
+    return ApiClient.get(
+      'ScoreByMI',
+      {
+        instance,
+        key: this._getAPIKey()
+      }
+    );
+  },
+
+  /**
+   * @method scoreByTypi
+   * @param {String} instance
+   * @param {Float} smooth
+   * @return {Promise}
+   * @public
+   */
+  scoreByTypi(instance) {
+    return ApiClient.get(
+      'ScoreByTypi',
+      {
+        instance,
+        key: this._getAPIKey(),
+        smooth
+      }
+    );
+  },
+
+  /**
+   * @method scoreByNPMI
+   * @param {String} instance
+   * @param {Float} smooth
+   * @return {Promise}
+   * @public
+   */
+  scoreByNPMI(instance, smooth) {
+    return ApiClient.get(
+      'ScoreByNPMI',
+      {
+        instance,
+        key: this._getAPIKey(),
+        smooth
+      }
+    );
+  },
+
+  /**
+   * @method scoreByPMIK
+   * @param {String} instance
+   * @param {Float} pmiK
+   * @param {Float} smooth
+   * @return {Promise}
+   * @public
+   */
+  scoreByPMIK(instance, pmiK, smooth) {
+    return ApiClient.get(
+      'ScoreByPMIK',
+      {
+        instance,
+        key: this._getAPIKey(),
+        pmiK,
+        smooth
+      }
+    );
+  },
+
+  /**
+   * @method scoreByCross
+   * @param {String} instance
+   * @param {Float} pmiK
+   * @param {Float} smooth
+   * @return {Promise}
+   * @public
+   */
+  scoreByCross(instance, pmiK, smooth) {
+    return ApiClient.get(
+      'ScoreByCross',
+      {
+        instance,
+        key: this._getAPIKey(),
+        pmiK,
+        smooth
+      }
+    );
   }
 };
 
