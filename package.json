@@ -1,6 +1,6 @@
 {
   "name": "concept",
-  "version": "0.1.1",
+  "version": "0.1.2,
   "description": "Library for accessing to the Microsoft Concept Graph API",
   "main": "src/concept",
   "scripts": {
